@@ -16,6 +16,6 @@ jobs:
       - name: Sync Files
         uses: BetaHuhn/repo-file-sync-action@latest
         with:
-          GH_PAT: ${{ secrets.GH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
           COMMIT_EACH_FILE: false
           PR_LABELS: "vault-sync"
