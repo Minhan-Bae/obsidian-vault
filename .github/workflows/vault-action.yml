@@ -20,12 +20,13 @@ jobs:
           token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
       
-      - name: Configure Git
+      - name: Check for changes
+        id: changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git diff --exit-code || echo "changes_detected=true" >> $GITHUB_OUTPUT
       
       - name: Git Auto Commit
+        if: steps.changes.outputs.changes_detected == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "vault sync: ${{ github.event.head_commit.message }}"
@@ -34,5 +35,4 @@ jobs:
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
           push_options: '--force'
-          skip_dirty_check: true    
-          status_options: '--untracked-files=all'
+          skip_dirty_check: false
