@@ -9,14 +9,17 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write  # 권한 추가
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
+          ref: ${{ github.head_ref }}  # 올바른 브랜치 체크아웃
           fetch-depth: 0
       
       - name: Git Auto Commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5  # 버전 업데이트
         with:
           commit_message: "vault sync"
           commit_options: '--no-verify'
