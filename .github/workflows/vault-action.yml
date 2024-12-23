@@ -10,16 +10,16 @@ jobs:
   sync:
     runs-on: ubuntu-24.04
     permissions:
-      contents: write  # 권한 추가
+      contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # v3에서 v4로 업데이트
         with:
-          ref: ${{ github.head_ref }}  # 올바른 브랜치 체크아웃
-          fetch-depth: 0
+          token: ${{ secrets.PAT }}  # PAT 추가
+          ref: ${{ github.head_ref }}
       
       - name: Git Auto Commit
-        uses: stefanzweifel/git-auto-commit-action@v5  # 버전 업데이트
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "vault sync"
           commit_options: '--no-verify'
