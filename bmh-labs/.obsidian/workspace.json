@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "59e7dd6cb0c25406",
+        "id": "2d449ebcfc290610",
         "type": "tabs",
         "children": [
           {
-            "id": "c6e8dbcf373c36f6",
+            "id": "0da144a1520b39ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "20.Projects/20.Projects.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "20.Projects"
             }
           }
         ]
@@ -151,11 +155,26 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f936b4e22e30da61",
+  "active": "0da144a1520b39ae",
   "lastOpenFiles": [
-    "Welcome.md"
+    "10.Daily/10.Daily.md",
+    "20.Projects/20.Projects.md",
+    "10.Daily/2024-12-23.md",
+    "90.System/91.Templates/tmp-daily-note.md",
+    "Welcome.md",
+    "40.Resources/45.Reference",
+    "40.Resources/44.Reference",
+    "40.Resources/43.Reference",
+    "40.Resources/42.Literature",
+    "40.Resources/41.Apps",
+    "40.Resources/94.Apps",
+    "90.System/95.Docs",
+    "90.System/94.Apps",
+    "90.System/93.Automation",
+    "90.System/92.Publishing"
   ]
 }
