@@ -1,22 +1,28 @@
 name: Git Auto Commit
-runs-on: ubuntu-latest
 
-permissions:
-  contents: write
+on:
+  push:
+    branches: [ "main" ]  # 트리거할 브랜치 지정
 
-steps:
-  - uses: actions/checkout@v4
-    with:
-      ref: ${{ github.head_ref }}
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
       
-  - name: Git Auto Commit
-    if: steps.changes.outputs.changes_detected == 'true'
-    uses: stefanzweifel/git-auto-commit-action@v5
-    with:
-      commit_message: "vault sync: ${{ github.event.head_commit.message }}"
-      commit_options: '--no-verify'
-      file_pattern: '**/*'
-      commit_user_name: 'github-actions[bot]'
-      commit_user_email: 'github-actions[bot]@users.noreply.github.com'
-      push_options: '--force'
-      skip_dirty_check: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "vault sync: ${{ github.event.head_commit.message }}"
+          commit_options: '--no-verify'
+          file_pattern: '**/*'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          push_options: '--force'
+          skip_dirty_check: false
