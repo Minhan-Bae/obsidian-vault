@@ -10,13 +10,13 @@
   },
   "weekly": {
     "format": "YY-[W]W",
-    "template": "",
+    "template": "Overview/9_System/91_Templates/weekly.md",
     "folder": "Overview/4_Review/41_Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "YY-[M]M",
-    "template": "",
+    "template": "Overview/9_System/91_Templates/monthly.md",
     "folder": "Overview/4_Review/42_Monthly",
     "enabled": true
   },

@@ -11,3 +11,8 @@ action capture
 
 ```
 
+```dataview
+TABLE
+file.name AS "File"
+From "Overview/1_Concentrate/11_Inbox" and !"Overview/1_Concentrate/11_Inbox/11_Inbox.md"
+```

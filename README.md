@@ -33,18 +33,25 @@ Overview(v241225.16.37.   )
 		ㄴ 32_Literature # 독서 노트, 논문 리뷰(Dataview로 관리) / 수정 X
 		ㄴ 33_Permanent  # 영구 보관용 지식 노트(Dataview로 관리) / 수정 X
 		ㄴ 34_MOC        # Map of Content ??
-	
+```
+- [[3_Knowledge]]
+```
 	4_Review: Periodic Note로 생성, 수정
 		ㄴ 41_Weekly
 		ㄴ 42_Monthly
 		ㄴ 43_Quarterly
 		ㄴ 44_Annual
-	
+```
+- [[4_Review]]
+```
 	5_Archive: Dataview로 관리
 	    ㄴ 51_Completed      # 완료된 프로젝트/문서
 	    ㄴ 52_Reference     # 참고자료
 	    ㄴ 53_Calendar # Folder Notes + Dataview를 이용해서 연간 확인할 것
 			ㄴ YYYY/MM/YYYY-MM-DD.md
+```
+- [[9_System]]
+```
 	9_System
 	    ㄴ 91_Templates
 	        ㄴ daily.md     # 데일리 노트 템플릿

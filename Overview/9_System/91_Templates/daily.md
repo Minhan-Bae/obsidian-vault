@@ -1,44 +1,28 @@
 ---
-created: <% tp.file.creation_date() %>
+date: <% tp.date.now("YYYY-MM-DD") %>
+week: <% tp.date.now("YY-[W]ww") %>
+month: <% tp.date.now("YYYY-MM") %>
 tags:
-  - dailynote
+  - daily
+물섭취량: 0
+집중시간: 0
+운동: 0
+독서: 0
 ---
-
 [[<% tp.date.yesterday("YYYY-MM-DD") %>|↶ Previous Day]] | [[<% tp.date.tomorrow("YYYY-MM-DD") %>|Following Day ↷]]
-
-1. [[#Daily Quote:|Daily Quote:]]
-1. [[#🌅 Morning Review|🌅 Morning Review]]
-	1. [[#🌅 Morning Review#컨디션 체크|컨디션 체크]]
-	1. [[#🌅 Morning Review#오늘의 우선순위|오늘의 우선순위]]
-1. [[#📋 Today's Schedule|📋 Today's Schedule]]
-	1. [[#📋 Today's Schedule#예정된 일정|예정된 일정]]
-	1. [[#📋 Today's Schedule#Next Actions|Next Actions]]
-1. [[#📥 Inbox Processing|📥 Inbox Processing]]
-	1. [[#📥 Inbox Processing#캡처 항목|캡처 항목]]
-	1. [[#📥 Inbox Processing#Waiting For|Waiting For]]
-1. [[#🎯 Projects Status|🎯 Projects Status]]
-	1. [[#🎯 Projects Status#진행중인 프로젝트|진행중인 프로젝트]]
-1. [[#📝 Daily Log|📝 Daily Log]]
-	1. [[#📝 Daily Log#Notes & Ideas|Notes & Ideas]]
-	1. [[#📝 Daily Log#회의록|회의록]]
-		1. [[#회의록#[회의명]|[회의명]]]
-1. [[#🌙 Evening Review|🌙 Evening Review]]
-	1. [[#🌙 Evening Review#완료된 작업|완료된 작업]]
-	1. [[#🌙 Evening Review#내일로 이동|내일로 이동]]
-	1. [[#🌙 Evening Review#일일 회고|일일 회고]]
-1. [[#📊 Metrics|📊 Metrics]]
 
 ## Daily Quote:
 <% tp.web.daily_quote() %>
+
 ## 🌅 Morning Review
 ### 컨디션 체크
-- 수면 시간: 6
-- 컨디션(1-5): 4 
-- 오늘의 에너지 레벨(1-5): 4
+- 수면 시간: 
+- 컨디션(1-5): 
+- 오늘의 에너지 레벨(1-5): 
 
 ### 오늘의 우선순위
-1. Most Important Task: 옵시디언 데일리 템플릿 만들고 사용해보기
-2. Second Priority: 일정 체크하기(1월 1일자)
+1. Most Important Task: 
+2. Second Priority: 
 3. Third Priority:
 
 ## 📋 Today's Schedule
@@ -95,3 +79,4 @@ tags:
 - 집중 시간: ⏱️
 - 운동: 💪
 - 독서: 📚
+

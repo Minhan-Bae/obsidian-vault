@@ -6,6 +6,7 @@
     "title": "text",
     "date": "date",
     "status": "multitext",
-    "action": "text"
+    "action": "text",
+    "물섭취량": "text"
   }
 }
