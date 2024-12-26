@@ -1,0 +1,6 @@
+{
+  "format": "YYYY/MMM/YYYY-MM-DD",
+  "folder": "Overview/5_Archive/53_Calendar",
+  "template": "Overview/9_System/91_Templates/daily",
+  "autorun": true
+}

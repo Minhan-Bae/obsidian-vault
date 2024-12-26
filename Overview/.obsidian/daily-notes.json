@@ -1,0 +1,6 @@
+{
+  "folder": "10.Daily",
+  "template": "90.System/91.Templates/tmp-daily-note-2",
+  "autorun": true,
+  "format": "YYYY/MMM/YYYY-MM-DD"
+}

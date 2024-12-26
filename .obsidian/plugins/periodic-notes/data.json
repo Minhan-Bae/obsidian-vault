@@ -1,0 +1,35 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "YYYY/MMM/YYYY-MM-DD",
+    "folder": "Overview/5_Archive/53_Calendar",
+    "template": "Overview/9_System/91_Templates/daily.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YY-[W]W",
+    "template": "",
+    "folder": "Overview/4_Review/41_Weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "YY-[M]M",
+    "template": "",
+    "folder": "Overview/4_Review/42_Monthly",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "YY-[Q]Q",
+    "template": "",
+    "folder": "Overview/4_Review/43_Quarterly",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "YY",
+    "template": "",
+    "folder": "Overview/4_Review/44_Annual",
+    "enabled": true
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "099cfd18ee588b49",
+    "type": "split",
+    "children": [
+      {
+        "id": "dab43ebb43906a77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7726860df2d4ff49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Overview/1_Concentrate/11_Inbox/무제.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "무제"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3ee68c5c2db8afc",
+    "type": "split",
+    "children": [
+      {
+        "id": "226ed9ddce4c90c7",
+        "type": "tabs",
+        "dimension": 77.83882783882784,
+        "children": [
+          {
+            "id": "5b69103bc20792ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "61cb154d6c7c8f6e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#work",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "b62fcb9b1cd9a700",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "77158c3dbcfbaea0",
+        "type": "tabs",
+        "dimension": 22.16117216117216,
+        "children": [
+          {
+            "id": "9130ca85c0e3c7f7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "70ae454b7e7aea95",
+    "type": "split",
+    "children": [
+      {
+        "id": "952a91508647b846",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfab7b9cb6d2214e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Overview/1_Concentrate/11_Inbox/무제.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "무제의 백링크"
+            }
+          },
+          {
+            "id": "57942086ca8afe9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "c5db07251ecf23c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "960193b3630f9483",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f832fdecd7c6944e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd0f83eabd07a710",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "floating": {
+    "id": "ca8aa3efaa640d76",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9eed0449adfb571d",
+        "type": "window",
+        "children": [
+          {
+            "id": "4c85f01d7ec798cc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5fe8cbb710c80bf5",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "새 탭"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 266,
+        "y": 341,
+        "width": 680,
+        "height": 760,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7726860df2d4ff49",
+  "lastOpenFiles": [
+    "Overview/1_Concentrate/11_Inbox/11_Inbox.md",
+    "Overview/1_Concentrate/11_Inbox/무제.md",
+    "Overview/1_Concentrate/11_Inbox/stocks.md",
+    "Overview/9_System/91_Templates/daily.md",
+    "Overview/5_Archive/53_Calendar/2024/12월/2024-12-26.md",
+    "Overview/9_System/95_Reference/periodic-note-templates/Daily Note Template.md",
+    "Overview/5_Archive/53_Calendar/2024/12월/2024-12-25.md",
+    "Overview/9_System/95_Reference/periodic-note-templates/periodic-note-templates.md",
+    "Overview/1_Concentrate/1_Concentrate.md",
+    "README.md",
+    "Overview/9_System/95_Reference/95_Reference.md",
+    "Overview/5_Archive/53_Calendar/2024/12월/2024-12-23.md",
+    "Overview/9_System/95_Reference",
+    "Overview/9_System/무제 파일.md",
+    "Overview/9_System/95_Reference/periodic-note-templates/Weekly Note Template.md",
+    "Overview/9_System/95_Reference/periodic-note-templates/README.md",
+    "Overview/9_System/95_Reference/periodic-note-templates/Scripts/CustomJS/CustomJS.md",
+    "Overview/2_Area/2_Area.md",
+    "Overview/Overview.md",
+    "Overview/9_System/94_History/94_History.md",
+    "Overview/9_System/91_Templates/folder-notes.md",
+    "Overview/9_System/91_Templates/capture.md",
+    "Overview/5_Archive/53_Calendar/2024/12월/2024-12-24.md",
+    "Overview/5_Archive/53_Calendar/53_Calendar.md",
+    "Overview/3_Knowledge/3_Knowledge.md",
+    "Overview/3_Knowledge/34_MOC/34_MOC.md",
+    "Overview/3_Knowledge/33_Permanent/33_Permanent.md",
+    "Overview/3_Knowledge/31_Bear",
+    "Overview/9_System/95_Reference/periodic-note-templates/Scripts/CustomJS/DvCharts.js",
+    "Overview/9_System/95_Reference/periodic-note-templates/Scripts/CustomJS",
+    "Overview/9_System/95_Reference/periodic-note-templates/Scripts",
+    "Overview/9_System/95_Reference/periodic-note-templates",
+    "bmh-labs/1_Concentrate/11_Inbox/111_Capture",
+    "1_Concentrate/11_Inbox",
+    "1_Concentrate",
+    "Overview/4_Review/44_Annual"
+  ]
+}
